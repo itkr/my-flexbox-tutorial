@@ -4,9 +4,13 @@
     /* flex-direction: row-reverse; */
     /* flex-direction: column; */
     /* flex-direction: column-reverse; */
-    /* flex-wrap: no-wrap; default */
+    /* flex-wrap: no-wrap; */
     flex-wrap: wrap;
     /* flex-wrap: wrap-reverse; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
 }
 .item {
     margin: 5px;
