@@ -1,5 +1,12 @@
 .container {
     display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: no-wrap; default */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
 }
 .item {
     margin: 5px;
