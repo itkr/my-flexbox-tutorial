@@ -1,20 +1,22 @@
 .container {
     display: flex;
     flex-direction: row;
-    /* flex-direction: row-reverse; */
-    /* flex-direction: column; */
-    /* flex-direction: column-reverse; */
-    /* flex-wrap: no-wrap; */
     flex-wrap: wrap;
-    /* flex-wrap: wrap-reverse; */
     justify-content: center;
     align-items: center;
     align-content: center;
     height: 100vh;
 }
 .item {
-    margin: 5px;
+    /* margin: 5px; */
     padding: 5px;
     background-color: #6699cc;
     color: #00ffff;
+}
+.grid_container {
+    display: grid;
+    /* grid-template-columns: 100px 200px 300px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 10px;
 }
